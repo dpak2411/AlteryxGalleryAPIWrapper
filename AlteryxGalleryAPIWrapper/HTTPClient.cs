@@ -52,5 +52,6 @@ namespace AlteryxGalleryAPIWrapper
 			public HttpWebResponse response;
 			public string stream;
 		}
+
 	}
 }

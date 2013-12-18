@@ -321,5 +321,21 @@ namespace AlteryxGalleryAPIWrapper
                 return responseObject;
             }
         }
+        public void Dispose()
+        {
+            // DeleteApp(appID);
+            url = null;
+            sessionId = null;
+
+        }
+
+
+        public void Dispose(string appID)
+        {
+            DeleteApp(appID);
+            Dispose();
+            //return appID;
+        }
+
     }
 }
