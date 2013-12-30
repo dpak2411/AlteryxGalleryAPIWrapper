@@ -225,6 +225,12 @@ namespace AlteryxGalleryAPIWrapper
             public string filename { get; set; }
             public publishValidation validation { get; set; }
         }
+
+
+
+
+
+
         public class publishValidation
         {
             public bool isValid { get; set; }
